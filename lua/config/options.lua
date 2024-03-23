@@ -10,4 +10,7 @@ vim.opt.conceallevel = 0
 vim.g.autoformat = false -- globally
 vim.b.autoformat = false -- buffer-local
 
+-- Disable undoing past writes after closing a file
+vim.opt.undofile = false
+
 
